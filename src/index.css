@@ -1,13 +1,45 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(https://i.ibb.co/pWkKtm8/home-banner.png);
+}
+#footer{
+    background-image: url(https://i.ibb.co/pWkKtm8/home-banner.png);
+    border-radius: 5px;
+}
+#main{
+    background-image: url(https://i.ibb.co/pWkKtm8/home-banner.png);
+}
+p{
+    color: #fff;
+}
+img{
+    border-radius: 5px;
+}
+p,a{
+    color: black;
+}
+#top{
+    padding-top: 250px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#services{
+    background-color: white;
+}
+button{
+    background-color: #fff;
+}
+#save{
+    color: black;
+}
+.app_btn_area .media .media-body h4 {
+    margin-bottom: 0px;
+    color: #fff;
+    font-size: 24px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    -webkit-transition: all 300ms linear 0s;
+    -o-transition: all 300ms linear 0s;
+    transition: all 300ms linear 0s;
 }
